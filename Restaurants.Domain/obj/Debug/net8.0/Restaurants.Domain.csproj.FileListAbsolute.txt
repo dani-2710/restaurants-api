@@ -1,0 +1,12 @@
+C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Restaurants.Domain\bin\Debug\net8.0\Restaurants.Domain.deps.json
+C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Restaurants.Domain\bin\Debug\net8.0\Restaurants.Domain.dll
+C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Restaurants.Domain\bin\Debug\net8.0\Restaurants.Domain.pdb
+C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.AssemblyInfo.cs
+C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.dll
+C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Restaurants.Domain\obj\Debug\net8.0\refint\Restaurants.Domain.dll
+C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.pdb
+C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Restaurants.Domain\obj\Debug\net8.0\ref\Restaurants.Domain.dll
+C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.csproj.AssemblyReference.cache
