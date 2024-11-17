@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj": {}
+    "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Application\\Restaurants.Application.csproj": {
+    "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Application\\Restaurants.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Application\\Restaurants.Application.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Application\\Restaurants.Application.csproj",
         "projectName": "Restaurants.Application",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Application\\Restaurants.Application.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Application\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Application\\Restaurants.Application.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Domain\\Restaurants.Domain.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Domain\\Restaurants.Domain.csproj"
+              "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Domain\\Restaurants.Domain.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Domain\\Restaurants.Domain.csproj"
               }
             }
           }
@@ -43,16 +46,17 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "AutoMapper": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[13.0.1, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -83,21 +87,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Domain\\Restaurants.Domain.csproj": {
+    "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Domain\\Restaurants.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Domain\\Restaurants.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Domain\\Restaurants.Domain.csproj",
         "projectName": "Restaurants.Domain",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Domain\\Restaurants.Domain.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Domain\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Domain\\Restaurants.Domain.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,7 +113,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -122,8 +129,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -150,21 +158,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj": {
+    "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj",
         "projectName": "Restaurants.Infrastructure",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,15 +184,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Application\\Restaurants.Application.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\Folder\\Programming Courses\\ASP.NET projects\\Restaurants\\Restaurants.Application\\Restaurants.Application.csproj"
+              "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Application\\Restaurants.Application.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\Dev Projects\\asp.net_projects\\restaurants-api\\Restaurants.Application\\Restaurants.Application.csproj"
               }
             }
           }
@@ -193,8 +204,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -227,7 +239,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

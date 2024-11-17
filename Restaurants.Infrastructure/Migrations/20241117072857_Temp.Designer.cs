@@ -12,15 +12,15 @@ using Restaurants.Infrastructure.Persistence;
 namespace Restaurants.Infrastructure.Migrations
 {
     [DbContext(typeof(RestaurantsDbContext))]
-    [Migration("20241108115542_RestaurantOwnerAdded")]
-    partial class RestaurantOwnerAdded
+    [Migration("20241117072857_Temp")]
+    partial class Temp
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.10")
+                .HasAnnotation("ProductVersion", "8.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -215,13 +215,7 @@ namespace Restaurants.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("OwnerId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("OwnerId");
 
                     b.ToTable("Restaurants");
                 });
@@ -359,12 +353,6 @@ namespace Restaurants.Infrastructure.Migrations
 
             modelBuilder.Entity("Restaurants.Domain.Entities.Restaurant", b =>
                 {
-                    b.HasOne("Restaurants.Domain.Entities.User", "Owner")
-                        .WithMany("OwnedRestaurants")
-                        .HasForeignKey("OwnerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.OwnsOne("Restaurants.Domain.Entities.Address", "Address", b1 =>
                         {
                             b1.Property<Guid>("RestaurantId")
@@ -388,18 +376,11 @@ namespace Restaurants.Infrastructure.Migrations
                         });
 
                     b.Navigation("Address");
-
-                    b.Navigation("Owner");
                 });
 
             modelBuilder.Entity("Restaurants.Domain.Entities.Restaurant", b =>
                 {
                     b.Navigation("Dishes");
-                });
-
-            modelBuilder.Entity("Restaurants.Domain.Entities.User", b =>
-                {
-                    b.Navigation("OwnedRestaurants");
                 });
 #pragma warning restore 612, 618
         }

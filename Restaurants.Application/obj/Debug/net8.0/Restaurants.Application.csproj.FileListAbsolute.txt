@@ -13,3 +13,19 @@ C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Rest
 C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Restaurants.Application\bin\Debug\net8.0\Restaurants.Domain.pdb
 C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.csproj.AssemblyReference.cache
 C:\Users\PC\Desktop\Folder\Programming Courses\ASP.NET projects\Restaurants\Restaurants.Application\obj\Debug\net8.0\Restaura.6AB96A7C.Up2Date
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.dll
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\obj\Debug\net8.0\refint\Restaurants.Application.dll
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.pdb
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.AssemblyInfo.cs
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.sourcelink.json
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\bin\Debug\net8.0\Restaurants.Application.deps.json
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\bin\Debug\net8.0\Restaurants.Application.dll
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\bin\Debug\net8.0\Restaurants.Application.pdb
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\bin\Debug\net8.0\Restaurants.Domain.dll
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\bin\Debug\net8.0\Restaurants.Domain.pdb
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\obj\Debug\net8.0\Restaura.6AB96A7C.Up2Date
+C:\Users\HP\Desktop\Dev Projects\asp.net_projects\restaurants-api\Restaurants.Application\obj\Debug\net8.0\ref\Restaurants.Application.dll
